@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Montserrat', sans-serif;
+    background-image: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fdribbble.com%2Fshots%2F3333720-Weather-App-Background-Image-Free&psig=AOvVaw1U5DGIGbNIPAzhrvI5kI0S&ust=1718609902149000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCJiF3v7O34YDFQAAAAAdAAAAABAE'); /* Corrected path */
+    background-size: cover;
+    background-position: top center;
+    padding-left: 10cm;
+    padding-right: 10cm;
+    padding-top: 1cm;
+    padding-bottom: 3cm;
+  }
+  
+  .app-wrap {
+    background: rgba(96, 194, 255, 0.8); /* Slight white overlay for readability */
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 500px;
+    margin: 50px auto;
+    box-shadow: 0 0 30px rgba(45, 0, 244, 0.5); /* Shadow effect */
+  }
+  
+  header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 15px 15px;
+  }
+  
+  header input {
+    width: 100%;
+    max-width: 280px;
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 0px 16px 0px 16px;
+    border-bottom: 3px solid rgb(199, 13, 13);
+    color: #000000;
+    font-size: 20px;
+    font-weight: 300;
+    transition: 0.2s ease-out;
+  }
+  
+  header input:focus {
+    background-color: rgba(255, 255, 255, 0.6);
+  }
+  
+  main {
+    flex: 1 1 100%;
+    padding: 25px 25px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .location .city {
+    color: #126604;
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 5px;
+  }
+  
+  .location .date {
+    color: #ee0707;
+    font-size: 16px;
+  }
+  
+  .current .temp {
+    color: #b02d2d;
+    font-size: 102px;
+    font-weight: 900;
+    margin: 30px 0px;
+    text-shadow: 2px 10px rgba(0, 0, 0, 0.6);
+  }
+  
+  .current .temp span {
+    font-weight: 500;
+  }
+  
+  .current .weather {
+    color: #fff;
+    font-size: 32px;
+    font-weight: 700;
+    font-style: italic;
+    margin-bottom: 15px;
+    text-shadow: 0px 3px rgba(0, 0, 0, 0.4);
+  }
+  
+  .current .hi-low {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 500;
+    text-shadow: 0px 4px rgba(0, 0, 0, 0.4);
+  }
+  
